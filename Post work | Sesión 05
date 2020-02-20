@@ -1,0 +1,14 @@
+Postwork - Sesión 05
+
+kaggle_internet
+
+Preguntas
+
+1. ¿Cuál es el promedio de edad en los condados de DeKalb, Lee y Morgan?
+	Filtro:{median_age} {county:["DeKalb", "Lee", "Morgan"]}}
+
+2. ¿Cuántas personas blancas tienen educación equivalente al high school?
+	Filtro: {P_white}, $eq {P_high_school_equivalent}
+
+3. ¿Cuántos condados tiene el mismo nivel del indice de gini?
+	Filtro: {county} $eq {gini_index}
